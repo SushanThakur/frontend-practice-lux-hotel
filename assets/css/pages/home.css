@@ -1,4 +1,75 @@
+
+.navContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.navLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0B973;
+    padding: 40px 30px;
+    border-radius: 0px 0px 35px 35px;
+    
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #14274A;
+    line-height: 25px;
+}
+
+.navLogo h1{
+    font-size: 40px;
+}
+.navLogo h3{
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+.navLinks{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navLinks ul{
+    list-style-type: none;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px 20px;
+    line-height: 50px;
+}
+.navLinks a:active{
+    text-decoration: underline;
+}
+.navLinks li{
+    display: inline;
+}
+
 .homeBgImage{
     height: 100vh;
     width: 100vw;
+}
+
+.homeImgOverlay{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #14274A80;
+    z-index: 0;
 }
