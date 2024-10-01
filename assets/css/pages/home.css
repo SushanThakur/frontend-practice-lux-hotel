@@ -260,6 +260,7 @@
     width: 30px;
     margin: 10px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 #footer{
