@@ -38,7 +38,6 @@
 .navLinks{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
     font-style: normal;
 }
 
@@ -52,6 +51,7 @@
     margin: 10px 20px;
     line-height: 50px;
     font-weight: 400;
+    font-size: 16px;
 }
 .navLinks a:active{
     text-decoration: underline;
@@ -138,6 +138,7 @@
     font-weight: 700;
     color: #ffffff;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .bookNowImg{
@@ -168,7 +169,7 @@
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    margin: 40px 0px;
+    padding: 40px 0px;
 }
 
 .room{
@@ -215,4 +216,165 @@
 }
 .roomImage{
     width: 550px;
+}
+
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 300px;
+    color: #14274A;
+}
+
+#testimonials h1{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+#testimonials h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#testimonials h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.arrowContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0B973;
+    color: #ffffff;
+    font-weight: 700;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #14274A;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+.footerRect{
+    background: #14274A;
+    width: 100px;
+    height: 100px;
+    transform-origin: center center;
+    transform: translateY(50px) rotateZ(45deg);
+    z-index: -1;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: flex-start;
+}
+.footerLogo{
+    text-align: center;
+}
+.address h1{
+    font-family: "Cormorant Garamond", serif;
+}
+.address h4{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    line-height: 5px;
+    margin-bottom: 15px;
+}
+.address h3{
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+}
+.pageLinks{
+    display: flex;
+    flex-direction: column;
+}
+.pageLinks a{
+    color: #ffffff;
+    font-size: 12px;
+    margin: 10px;
+}
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.socialLinksImage{
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.socialLinks a{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.newsLetter{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.newsLetter h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.newsLetter input {
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #E0B973;
+    padding: 10px 20px;
+    background-color: #14274A;
+    color: #ffffff;
+}
+.newsLetter input::placeholder {
+    color: #ffffff;
+}
+.newsLetter input:focus {
+    outline: none;
+    border: 2px solid #E0B973;
+    background-color: #14274A;
+}
+.newsLetterButton{
+    font-family: "Montserrat", sans-serif;
+    background-color: #E0B973;
+    height: 40px;
+    width: 45px;
+    border: 2px solid #E0B973;
+    cursor: pointer;
+    transform: translateX(-10px);
 }
