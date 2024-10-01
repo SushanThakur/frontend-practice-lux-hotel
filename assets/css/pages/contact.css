@@ -1,0 +1,95 @@
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #ffffff;
+    z-index: -3;
+    height: 40vh;
+    width: 100vw;
+    top: 0px;
+    background-color: #14274A;
+    font-size: 40px;
+    font-weight: 700;
+}
+.navContainerContact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+.contactNoticeContainer{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.contactNoticeContainer a{
+    color: #000000;
+}
+.contactNotice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80vw;
+    max-width: 1000px;
+    justify-content: center;
+    transform: translateY(40vh);
+}
+.contactNotice h1{
+    font-family: "Cormorant Garamond", serif;
+    padding-bottom: 10px;
+}
+.contactNotice h4{
+    font-weight: 400;
+}
+
+.contactMessageContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 80vw;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactMessage form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contactMessageContainer input{
+    width: 40vw;
+    max-width: 500px;
+    height: 30px;
+    padding: 5px;
+}
+.contactMessage input[type='submit'] {
+    height: 40px;
+    width: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: #E0B973;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.contactMessageInput textarea{
+    height: 150px;
+    width: 40vw;
+    max-width: 500px;
+    padding: 5px;
+}
+#footer-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    transform: translateY(400px);
+}
+
