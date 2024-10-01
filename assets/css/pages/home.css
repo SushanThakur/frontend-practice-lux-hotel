@@ -358,6 +358,7 @@
 .newsLetter input {
     font-family: "Montserrat", sans-serif;
     border: 2px solid #E0B973;
+    border-right: none;
     padding: 10px 20px;
     background-color: #14274A;
     color: #ffffff;
@@ -373,9 +374,11 @@
 .newsLetterButton{
     font-family: "Montserrat", sans-serif;
     background-color: #E0B973;
-    height: 40px;
+    height: 39px;
     width: 45px;
     border: 2px solid #E0B973;
+    border-radius: 0px;
+    border-left: none;
     cursor: pointer;
     transform: translateX(-10px);
 }
